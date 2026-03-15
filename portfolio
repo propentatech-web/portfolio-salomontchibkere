@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Tchibkere salomon</title>
+    <link rel="stylesheet" href="">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <nav>
+        <div class="logo">T_S</div>
+        <ul>
+            <li><a href="#propos">À PROPOS</a></li>
+            <li><a href="#competences">COMPETENCES</a></li>
+            <li><a href="#parcours">PARCOURS</a></li>
+            <li><a href="https://+237655136824">CONTACT</a></li>
+        </ul>
+    </nav>
+
+    <header class="hero">
+        <div class="hero-content">
+            <p class="subtitle">DEVELOPPEUR WEB · ETUDIANT EN INFORMATIQUE</p>
+            <h1>Tchibkere <br><span>salomon</span></h1>
+            <p class="description">Passionne par la creation d'experiences web modernes et accessibles. En route vers le developpement front-end.</p>
+            <a href="#contact" class="btn">ME CONTACTER</a>
+        </div>
+        <div class="hero-image">
+            <div class="circle-img">
+                <img src="salomon.jpg" alt=""width=200>
+            </div>
+        </div>
+    </header>
+
+    <section id="propos" class="about">
+        <div class="about-text">
+            <p class="section-tag">À PROPOS</p>
+            <h2>Qui suis-je ?</h2>
+            <p>Je suis etudiant en informatique, anime par une vraie curiosite pour le web et ses technologies. Je m'interesse particulierement à la conception d'interfaces elegantes et a l'experience utilisateur.</p>
+            <p>Mon objectif : devenir developpeur front-end capable de transformer des idees en experiences digitales memorables.</p>
+        </div>
+        <div class="about-cards">
+            <div class="stat-card">
+                <h3>2eme</h3>
+                <p>ANNÉE D'INFORMATIQUE</p>
+            </div>
+            <div class="stat-card">
+                <h3>5+</h3>
+                <p>TECHNOLOGIES MAITRISEES</p>
+            </div>
+            <div class="stat-card">
+                <h3>∞</h3>
+                <p>ENVIE D'APPRENDRE</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="competences" class="skills">
+        <p class="section-tag">COMPETENCES</p>
+        <h2>Ce que je sais faire</h2>
+        <div class="skills-grid">
+            <div class="skill-card">
+                <div class="icon">HTML</div>
+                <h4>HTML</h4>
+                <p>Structure semantique, accessibilite, bonnes pratiques.</p>
+            </div>
+            <div class="skill-card active">
+                <div class="icon">Git</div>
+                <h4>Git</h4>
+                <p>Versioning, branches, gestion de l'historique.</p>
+            </div>
+            <div class="skill-card">
+                <div class="icon">GH</div>
+                <h4>GitHub</h4>
+                <p>Collaboration, pull requests, hebergement.</p>
+            </div>
+            <div class="skill-card">
+                <div class="icon">👥</div>
+                <h4>Travail en equipe</h4>
+                <p>Communication, organisation, methodes agiles.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="https://+237655136824" class="Whatsapp">
+        <div class="contact-container">
+            <div class="contact-info">
+                <p class="https://+237655136824">CONTACT</p>
+                <h2>Travaillons <span>ensemble</span></h2>
+                <p>Une question, une idee de projet ? N'hesitez pas a m'ecrire.</p>
+            </div>
+            <form class="contact-form">
+                <label>NOM COMPLET</label>
+                <input type="text" placeholder="Votre nom complet">
+                
+                <label>ADRESSE EMAIL</label>
+                <input type="email" placeholder="votre@email.com">
+                
+                <label>MESSAGE</label>
+                <textarea placeholder="Bonjour salomon, je voulais..."></textarea>
+                
+                <button type="submit" class="btn-submit">Envoyer le message</button>
+                <button type="https://+237655136824">Whatsapp</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2026 · Tchibkere salomon · Tous droits reserves</p>
+    </footer>
+
+</body>
+</html>
